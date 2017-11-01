@@ -61,8 +61,8 @@ export default {
           type: "outgoing",
           date: moment(),
           from: {
-            name: "Jonas Kuske",
-            email: "joku@gmail.com"
+            name: "John Doe",
+            email: "johndoe@mail.com"
           },
           attachments: []
         }

@@ -4,8 +4,8 @@
           <img src="../../assets/images/profile.jpg" alt="Profile Picture">
 
           <div class="user-name">
-              <h5>Jonas Kuske</h5>
-              <span class="email-address">joku49@gmail.com</span>
+              <h5>John Doe</h5>
+              <span class="email-address">johndoe@mail.com</span>
           </div>
       </div>
 
