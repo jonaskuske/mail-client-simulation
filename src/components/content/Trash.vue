@@ -1,7 +1,7 @@
 <template>
-  <div class="inbox-body">
-      <app-messages :messages="trashedMessages"></app-messages>
-  </div>
+    <div class="inbox-body">
+        <app-messages :messages="trashedMessages"></app-messages>
+    </div>
 </template>
 
 <script>

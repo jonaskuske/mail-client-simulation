@@ -4,9 +4,9 @@
           <h3> {{currentView.title}} </h3>
       </div>
 
-      <keep-alive>
+        <keep-alive>
               <component :is="currentView.tag" :data="currentView.data"></component>
-          </keep-alive>
+        </keep-alive>
   </aside>
 </template>
 
@@ -52,7 +52,7 @@ export default {
   computed: {
     currentView() {
       let current = this.history[0];
-      current.data.messages = this.messages;
+      this.$set(current.data, "messages", this.messages);
       return current;
     },
     previousView() {
