@@ -10,6 +10,6 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 export const eventBus = new Vue();
 
 new Vue({
-    el: '#app',
-    render: create => create(App)
+  el: '#app',
+  render: create => create(App)
 });
